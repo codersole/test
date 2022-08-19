@@ -5,7 +5,7 @@
         <span class="iconfont icon-pingmusuoding"></span>
       </div>
       <div class="title">请解锁手机方向锁定，横屏体验！</div>
-      <div>添加loading</div>
+      <div>添加loading1212</div>
     </div>
   </div>
 </template>
