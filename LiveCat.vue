@@ -7,6 +7,7 @@
     element-loading-background="black"
     v-if="renderVisible"
   >
+  <div class="test"></div>
     <div class="player-container" ref="player"></div>
     <div class="btn-container">
       <SettingDrawer
