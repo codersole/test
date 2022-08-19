@@ -5,29 +5,30 @@
         <span class="iconfont icon-pingmusuoding"></span>
       </div>
       <div class="title">请解锁手机方向锁定，横屏体验！</div>
+      <div>添加loading</div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'LoadPhone',
+  name: "LoadPhone",
   props: {
     // 是否显示遮罩层
     isShow: {
       type: Boolean,
-      default: false
+      default: false,
     },
     // 显示哪一种css样式
     chooseCss: {
       type: String,
-      default: 'container'
-    }
+      default: "container",
+    },
   },
   data() {
-    return {}
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -116,5 +117,10 @@ export default {
   100% {
     transform: rotate(360deg);
   }
+}
+.loading {
+  width: 50px;
+  height: 50px;
+  background-color: red;
 }
 </style>
